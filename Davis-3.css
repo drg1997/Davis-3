@@ -13,14 +13,13 @@ body {
 /*Navigation*/
 .nav li {
   display: inline;
-  padding-left: 40px;
-  padding-right: 40px;
-  font-size: 27px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 25px;
   color: #e6eff4;
 }
 
 .nav {
-  background-color: rgba(16, 20, 28, .9);
   border-radius: 10px;
   padding-top: 10px;
 }
@@ -65,5 +64,5 @@ body {
 }
 
 .content .container {
-  border-top-style: solid;
+  border-bottom-style: solid;
 }
