@@ -1,13 +1,11 @@
 /*Colors
-light blue = #0642C2;
-blue = #153986;
-dark blue = #1B2F5A;
 really dark blue = #1D2943;
-almost black but still a little blue = #10141C;*/
+almost black but still a little blue = #10141C;
+content bakground: rgba(83, 101, 110, .95); */
 
 body {
   font-family: 'Ruda', sans-serif;
-  background-image: url(bacteria.jpeg);
+  background-color: #081c30;
 }
 
 
@@ -18,12 +16,13 @@ body {
   padding-left: 40px;
   padding-right: 40px;
   font-size: 27px;
-  color: white;
+  color: #e6eff4;
 }
 
 .nav {
-  background-color: rgba(16, 20, 28, .8);
+  background-color: rgba(16, 20, 28, .9);
   border-radius: 10px;
+  padding-top: 10px;
 }
 
 
@@ -31,15 +30,40 @@ body {
 
 
 /*Jumbtron*/
-.jumbotron {
+.container .jumbotron {
   background-color: rgba(255, 255, 255, .9);
+  padding-top: 70px;
+  padding-bottom: 90px;
 }
 
-.jumbotron p {
-  font-size: 35px;
+.container .jumbotron p {
+  font-size: 40px;
 }
 
-.jumbotron h1 {
-  color: #1B2F5A;
-  font-size: 175px;
+.container .jumbotron h1 {
+  color: #1D2943;
+  font-size: 250px;
+}
+
+
+/*container jumbotron*/
+.content .jumbotron {
+  background-color: rgba(83, 101, 110, .95);
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.content .jumbotron h1 {
+  font-size: 60px;
+  color: #e6eff4;
+  font-weight: bolder;
+}
+
+.content .jumbotron p {
+  font-size: 30px;
+  color: #e6eff4;
+}
+
+.content .container {
+  border-top-style: solid;
 }
