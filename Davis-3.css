@@ -1,3 +1,45 @@
+/*Colors
+light blue = #0642C2;
+blue = #153986;
+dark blue = #1B2F5A;
+really dark blue = #1D2943;
+almost black but still a little blue = #10141C;*/
+
 body {
   font-family: 'Ruda', sans-serif;
+  background-image: url(bacteria.jpeg);
+}
+
+
+
+/*Navigation*/
+.nav li {
+  display: inline;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 27px;
+  color: white;
+}
+
+.nav {
+  background-color: rgba(16, 20, 28, .8);
+  border-radius: 10px;
+}
+
+
+
+
+
+/*Jumbtron*/
+.jumbotron {
+  background-color: rgba(255, 255, 255, .9);
+}
+
+.jumbotron p {
+  font-size: 35px;
+}
+
+.jumbotron h1 {
+  color: #1B2F5A;
+  font-size: 175px;
 }
