@@ -54,7 +54,7 @@ body {
 
 .content .jumbotron h1 {
   font-size: 60px;
-  color: #e6eff4;
+  color: #1D2943;
   font-weight: bolder;
 }
 
@@ -65,4 +65,11 @@ body {
 
 .content .container {
   border-bottom-style: solid;
+}
+
+.ackgnowledgements {
+  color: #e6eff4;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 30px;
 }
