@@ -30,7 +30,7 @@ body {
 
 /*Jumbtron*/
 .container .jumbotron {
-  background-color: rgba(255, 255, 255, .9);
+  background-image: url("background.jpg");
   padding-top: 70px;
   padding-bottom: 90px;
 }
@@ -44,6 +44,10 @@ body {
   font-size: 250px;
 }
 
+b {
+  color: #1D2943;
+  font-size: 45px;
+}
 
 /*container jumbotron*/
 .content .jumbotron {
@@ -72,4 +76,98 @@ body {
   font-size: 30px;
   text-align: center;
   padding-bottom: 30px;
+}
+
+
+
+/*THIS MAKES THE LINKS BE THE FUCKING COLOR THEY"RE SUPPOSED TO BE*/
+li a {
+  color: #e6eff4;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(83, 101, 110, .95);
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+/*ALL THE FUCKING JUMBOTRON BULLSHIT*/
+
+
+/*DESIGN PAGE SHIT*/
+.page-design .jumbotron {
+
+}
+
+.page-design .jumbotron h1 {
+  font-size: 60px;
+}
+
+.page-design .jumbotron p {
+  font-size: 30px;
+}
+
+/*TEST PAGE SHIT*/
+.page-test .jumbotron {
+
+}
+
+.page-test .jumbotron h1 {
+  font-size: 60px;
+}
+
+.page-test .jumbotron p {
+  font-size: 30px;
+}
+
+
+
+/*SUBMIT PAGE SHIT*/
+.page-submit .jumbotron {
+
+}
+
+.page-submit .jumbotron h1 {
+  font-size: 60px;
+}
+
+.page-submit .jumbotron p {
+  font-size: 30px;
+}
+
+
+
+/*ANALYZE PAGE SHIT*/
+.page-analyze .jumbotron {
+
+}
+
+.page-analyze .jumbotron h1 {
+  font-size: 60px;
+}
+
+.page-analyze .jumbotron p {
+  font-size: 30px;
+}
+
+
+
+/*HELP PAGE SHIT*/
+.page-help .jumbotron {
+
+}
+
+.page-help .jumbotron h1 {
+  font-size: 60px;
+}
+
+.page-help .jumbotron p {
+  font-size: 30px;
 }
