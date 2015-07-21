@@ -24,6 +24,19 @@ body {
   padding-top: 10px;
 }
 
+/*NAV PROTOCOL*/
+.nav-protocol li {
+  display: inline;
+  padding-left: 75px;
+  padding-right: 75px;
+  font-size: 25px;
+  color: #e6eff4;
+}
+
+.nav-protocol {
+  border-radius: 10px;
+  padding-top: 10px;
+}
 
 
 
@@ -45,11 +58,11 @@ body {
 }
 
 b {
-  color: #1D2943;
+  color: #e6eff4;
   font-size: 45px;
 }
 
-/*container jumbotron*/
+/*content jumbotron*/
 .content .jumbotron {
   background-color: rgba(83, 101, 110, .95);
   padding-left: 70px;
@@ -73,15 +86,16 @@ b {
 
 .ackgnowledgements {
   color: #e6eff4;
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
   padding-bottom: 30px;
+  border-top-style: solid;
 }
 
 
 
 /*THIS MAKES THE LINKS BE THE FUCKING COLOR THEY"RE SUPPOSED TO BE*/
-li a {
+a {
   color: #e6eff4;
   text-decoration: none;
 }
@@ -92,7 +106,14 @@ a:hover {
 }
 
 
+/*The button at the end of each page to go to the next one*/
 
+.container .nextpage h1 {
+  text-align: center;
+  width: 100%;
+  font-size: 60px;
+  color: #e6eff4;
+}
 
 
 
